@@ -6,8 +6,8 @@ It includes a Node.js backend that generates sensor data and a React frontend th
 ## How to Run on Your Machine
 
 ### 1. Clone the project
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/Vikash-thak12/Entrepreneurship.git
+cd Entrepreneurship
 
 ### 2. Start the Backend
 cd backend
