@@ -62,13 +62,13 @@ export default function ControlPanel({ socket }: { socket: any }) {
             <div className="flex gap-3">
                 <button
                     onClick={() => sendPump('on')}
-                    className="px-4 py-2 bg-blue-600 text-white rounded"
+                    className="px-4 py-2 bg-blue-600 text-white rounded cursor-pointer"
                 >
                     Turn Pump ON
                 </button>
                 <button
                     onClick={() => sendPump('off')}
-                    className="px-4 py-2 bg-slate-200 rounded"
+                    className="px-4 py-2 bg-slate-200 rounded cursor-pointer"
                 >
                     Turn Pump OFF
                 </button>
