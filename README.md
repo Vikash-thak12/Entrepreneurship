@@ -6,34 +6,69 @@ It includes a Node.js backend that generates sensor data and a React frontend th
 ## How to Run on Your Machine
 
 ### 1. Clone the project
+```bash
 git clone https://github.com/Vikash-thak12/Entrepreneurship.git
+```
+
+```bash
 cd Entrepreneurship
+```
+
+---
 
 ### 2. Start the Backend
+```bash
 cd backend
+```
+
+```bash
 npm install
+```
+
+```bash
 npm run dev
+```
 
 Backend runs at:
+```
 http://localhost:4000
+```
+
+---
 
 ### 3. Setup Frontend
+```bash
 cd ../frontend
-npm install
+```
 
-Create a `.env` file inside the frontend folder with:
+```bash
+npm install
+```
+
+Create a `.env` file inside the **frontend** folder with:
+
+```
 VITE_API_URL=http://localhost:4000
 VITE_SOCKET_URL=http://localhost:4000
+```
+
+---
 
 ### 4. Start the Frontend
+```bash
 npm run dev
+```
 
 Frontend runs at:
+```
 http://localhost:5173
+```
 
-Open the frontend link in your browser. You will see:
-- Live sensor readings
-- Alerts
-- Pump ON/OFF control
+---
 
-That’s it.
+Open the frontend link in your browser to view:
+- Live sensor readings  
+- Alerts  
+- Pump ON/OFF control  
+
+That’s it! Your prototype is running.
